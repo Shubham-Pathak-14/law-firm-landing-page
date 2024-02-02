@@ -4,6 +4,7 @@ import NavBar from "../../Components/Navbar/Navbar";
 import HeroSection from "../../Components/HeroSection/HeroSection";
 import Introduction from "../../Components/Introduction/Intro";
 import ChooseUs from "../../Components/WhyChooseUs/ChooseUs";
+import AreaOfPractices from "../../Components/AreaOfPractices/AreaOfPractices";
 
 const LandingPage = () => {
   return (
@@ -16,6 +17,7 @@ const LandingPage = () => {
         <div className={styles.contentWrapper}>
           <Introduction />
           <ChooseUs />
+          <AreaOfPractices />
         </div>
       </div>
     </div>
