@@ -5,6 +5,7 @@ import HeroSection from "../../Components/HeroSection/HeroSection";
 import Introduction from "../../Components/Introduction/Intro";
 import ChooseUs from "../../Components/WhyChooseUs/ChooseUs";
 import AreaOfPractices from "../../Components/AreaOfPractices/AreaOfPractices";
+import ClientInfo from "../../Components/ClientInfo/ClientInfo";
 
 const LandingPage = () => {
   return (
@@ -18,6 +19,7 @@ const LandingPage = () => {
           <Introduction />
           <ChooseUs />
           <AreaOfPractices />
+          <ClientInfo />
         </div>
       </div>
     </div>
