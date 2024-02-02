@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import LandingPage from "./Pages/LandingPage/LandingPage";
 
 function App() {
-  return <></>;
+  return (
+    <div>
+      <LandingPage />
+    </div>
+  );
 }
 
 export default App;
