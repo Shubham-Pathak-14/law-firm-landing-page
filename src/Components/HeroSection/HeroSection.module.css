@@ -6,7 +6,7 @@
 	margin-bottom: 75px;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
 	.wrapper {
 		flex-direction: column;
 	}
@@ -22,7 +22,7 @@
 	.inputContainer {
 		margin-bottom: 75px;
 	}
-}
+} */
 
 .leftWrapper {
 	display: flex;
@@ -81,6 +81,11 @@
 	padding-right: 7px;
 }
 
+.inputContainer img {
+	width: 22px;
+	height: 18px;
+}
+
 .inputContainer input {
 	color: var(--color-white);
 	text-align: center;
@@ -117,10 +122,11 @@
 	position: relative;
 }
 
-.container {
+.container img{
 	position: absolute;
 	width: 443.511px;
 	height: 509.069px;
 	flex-shrink: 0;
 	bottom: 0px;
 }
+
