@@ -6,6 +6,7 @@ import Introduction from "../../Components/Introduction/Intro";
 import ChooseUs from "../../Components/WhyChooseUs/ChooseUs";
 import AreaOfPractices from "../../Components/AreaOfPractices/AreaOfPractices";
 import ClientInfo from "../../Components/ClientInfo/ClientInfo";
+import Teams from "../../Components/Teams/Teams";
 
 const LandingPage = () => {
   return (
@@ -20,6 +21,7 @@ const LandingPage = () => {
           <ChooseUs />
           <AreaOfPractices />
           <ClientInfo />
+          <Teams />
         </div>
       </div>
     </div>
