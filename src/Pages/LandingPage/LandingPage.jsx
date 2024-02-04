@@ -9,6 +9,7 @@ import ClientInfo from "../../Components/ClientInfo/ClientInfo";
 import Teams from "../../Components/Teams/Teams";
 import FAQSection from "../../Components/FAQ/FAQ";
 import NewsLetter from "../../Components/NewsLetters/NewsLetters";
+import Footer from "../../Components/Footer/Footer";
 
 const LandingPage = () => {
   return (
@@ -27,6 +28,7 @@ const LandingPage = () => {
           <FAQSection />
           <NewsLetter />
         </div>
+        <Footer />
       </div>
     </div>
   );
