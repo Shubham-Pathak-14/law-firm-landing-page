@@ -8,6 +8,7 @@ import AreaOfPractices from "../../Components/AreaOfPractices/AreaOfPractices";
 import ClientInfo from "../../Components/ClientInfo/ClientInfo";
 import Teams from "../../Components/Teams/Teams";
 import FAQSection from "../../Components/FAQ/FAQ";
+import NewsLetter from "../../Components/NewsLetters/NewsLetters";
 
 const LandingPage = () => {
   return (
@@ -24,6 +25,7 @@ const LandingPage = () => {
           <ClientInfo />
           <Teams />
           <FAQSection />
+          <NewsLetter />
         </div>
       </div>
     </div>
